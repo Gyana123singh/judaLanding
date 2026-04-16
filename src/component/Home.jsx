@@ -177,13 +177,7 @@ const Home = () => {
         <div>
             <section className="relative w-full h-[90vh] overflow-hidden">
 
-                {/* 🎥 Background Video */}
-                <video
-                    className="absolute inset-0 w-full h-full object-cover"
-                    src={video}  // your video file
-                    autoPlay
-                    controls
-                />
+                
 
                 {/* 🔥 Dark Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70" />
